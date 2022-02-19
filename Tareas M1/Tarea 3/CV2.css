@@ -1,0 +1,66 @@
+h1{
+    text-transform: uppercase; /*mayuscula*/
+    text-align: center; /*alineacion, centro, derecha e izquierda*/
+}
+h2{
+    text-transform: uppercase;
+    color: blue;
+}
+h3{
+    text-transform: uppercase;
+    color: rgb(128, 0, 64);
+}
+h4{
+    text-transform: uppercase;
+    color: gray;
+}
+h5{
+    text-transform: uppercase;
+    color: rgb(255, 60, 0);
+}
+h6{
+    text-transform: uppercase;
+    color: rgb(255, 0, 255);
+}
+p{
+    color: red;
+}
+
+/*aca trabajamos con clases*/
+
+#amarillo{
+    color: green;
+    font-weight: bold;
+}
+.destacado{
+    background-color: yellow;
+    box-shadow: -22px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 110px;
+    height: 110px;
+    margin: 40px;
+    text-align: left;
+    padding: 20px 5px 5px 20px;
+}
+.destacado:hover{
+    background-color: orange;
+}
+#verde{
+    background-color: greenyellow;
+    display: inline-block;
+    margin-top: auto;
+}
+img{
+    filter: grayscale(100%);
+    width: 200px;
+}
+img:hover{
+    filter: grayscale(0%);
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: yellow;
+}
