@@ -1,0 +1,41 @@
+.boton {
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+
+.alternar  {
+    background: #C0C0C0;
+}
+
+.alternar2{
+    background: brown;
+}
+
+.alternar3 {
+    background: #fc85a2;
+}
+
+
+.alternar.activo {
+    background: orange;
+    color: gray;
+}
+
+.alternar2.activo{
+    background: purple;
+    color: yellow;
+}
+
+.alternar3.activo{
+    background: red;
+    color: green;
+}

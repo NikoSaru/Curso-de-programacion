@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 1</title>
+	<link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+
+<body>
+    <h3>Los botones cambian de color</h3>
+    <p>
+        <button class="boton alternar">Yo puedo cambiar mi color</button>
+        <button class="boton alternar2">Yo tambien puedo cambiar de color</button>
+        <button class="boton alternar3">Aah pero mira yo como cambio de color</button>
+    </p>
+    
+    <script>
+        
+        var alternar = document.getElementsByClassName('alternar')[0];
+        var alternar2 = document.getElementsByClassName('alternar2')[0];
+        var alternar3 = document.getElementsByClassName('alternar3')[0];
+        
+        alternar.addEventListener('click', function(e) {
+            e.target.classList.toggle('activo');
+        });
+        alternar2.addEventListener('click', function(e) {
+            e.target.classList.toggle('activo');
+        });
+        alternar3.addEventListener('click', function(e) {
+            e.target.classList.toggle('activo');
+        });
+   	
+    </script>
+</body>
+</html>
+
+
+
